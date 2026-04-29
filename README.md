@@ -24,3 +24,6 @@ git clone https://github.com/cse-mominul/AlmaLinux-Cloud-Init-Setup.git
 cd AlmaLinux-Cloud-Init-Setup
 chmod +x AlmaLinux-Cloud-Init-Auto-Reset.sh
 sudo ./AlmaLinux-Cloud-Init-Auto-Reset.sh
+sudo systemctl start cloud-init-reset.service
+sudo systemctl enable cloud-init-reset.service
+systemctl status cloud-init-reset.service
