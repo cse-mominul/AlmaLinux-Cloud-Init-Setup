@@ -20,7 +20,7 @@ The script automates the cleanup process to ensure that every VM cloned from you
 
 You can set up the automation by running this single command in your terminal:
 ```bash
-git clone https://github.com/cse-mominul/Ubuntu-Cloud-Init-Setup.git
+git clone https://github.com/cse-mominul/Ubuntu-Cloud-Init-Setup.git](https://github.com/cse-mominul/AlmaLinux-Cloud-Init-Setup.git
 cd Ubuntu-Cloud-Init-Setup
 chmod +x AlmaLinux-Cloud-Init-Auto-Reset.sh
 sudo ./AlmaLinux-Cloud-Init-Auto-Reset.sh
